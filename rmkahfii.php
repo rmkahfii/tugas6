@@ -1,5 +1,7 @@
 <?php
 echo "<br><br><table border='1' cellpadding='10' cellspacing='0'>";
+echo "Nama : RADEN MUHAMMAD KAHFI ISKANDAR <br>";
+echo "5520123066 <br>";
 echo "Angka genap dari 1 sampai 10:<br>";
 for ($i = 1; $i <= 10; $i++) {
     if ($i % 2 == 0) {
