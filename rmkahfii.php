@@ -8,7 +8,7 @@ for ($i = 1; $i <= 10; $i++) {
 }
 
 // Baris header (kolom angka 1–10)
-echo "<tr style='background-color:green; color:white;'><th>bilangan</th>";
+echo "<tr style='background-color:green; color:black;'><th>bilangan</th>";
 for ($i = 1; $i <= 10; $i++) {
     echo "<th>$i</th>";
 }
@@ -18,15 +18,15 @@ echo "</tr>";
 for ($i = 1; $i <= 10; $i++) {
     echo "<tr>";
     // Kolom pertama (bilangan baris)
-    echo "<th style='background-color:green; color:white;'>$i</th>";
+    echo "<th style='background-color:green; color:black;'>$i</th>";
 
     for ($j = 1; $j <= 10; $j++) {
         $result = $i * $j;
 
         // Warna sesuai genap/ganjil
-        $bgcolor = ($result % 2 == 0) ? "orange" : "purple";
+        $bgcolor = ($result % 2 == 0) ? "yellow" : "blue";
 
-        echo "<td style='background-color:$bgcolor; text-align:center; color:white;'>$result</td>";
+        echo "<td style='background-color:$bgcolor; text-align:center; color:black;'>$result</td>";
     }
 
     echo "</tr>";
